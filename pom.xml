@@ -1,0 +1,210 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>informa</groupId>
+  <artifactId>informa</artifactId>
+  <version>0.8-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>informa</name>
+  <description>The Informa RSS Library provides a convenient Java API for handling news
+    channels and metadata about them. Different syntax formats (like RSS
+    0.91 and 1.0 RDF) for channels are supported. In addition a parser for
+    reading in channel information descriptions (OPML) is provided.</description>
+  <url>http://informa.sourceforge.net/</url>
+  <issueManagement>
+    <url>http://sourceforge.net/tracker/?atid=467483&amp;group_id=52620</url>
+  </issueManagement>
+  <ciManagement>
+    <notifiers>
+      <notifier>
+        <address>informa-developer@lists.sourceforge.net</address>
+      </notifier>
+    </notifiers>
+  </ciManagement>
+  <inceptionYear>2002</inceptionYear>
+  <mailingLists>
+    <mailingList>
+      <name>Informa Announcements List</name>
+      <subscribe>informa-announce-request@lists.sourceforge.net?subject=subscribe</subscribe>
+      <unsubscribe>informa-announce-request@lists.sourceforge.net?subject=unsubscribe</unsubscribe>
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum=informa-announce</archive>
+    </mailingList>
+    <mailingList>
+      <name>Informa Developer List</name>
+      <subscribe>informa-developer-request@lists.sourceforge.net?subject=subscribe</subscribe>
+      <unsubscribe>informa-developer-request@lists.sourceforge.net?subject=unsubscribe</unsubscribe>
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum=informa-developer</archive>
+    </mailingList>
+  </mailingLists>
+  <developers>
+    <developer>
+      <id>niko_schmuck</id>
+      <name>Niko Schmuck</name>
+      <email>niko_schmuck at users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Project Manager</role>
+        <role>Developer</role>
+      </roles>
+      <timezone>+2</timezone>
+    </developer>
+    <developer>
+      <id>pitosalas</id>
+      <name>Pito Salas</name>
+      <email>pitosalas at users.sourceforge.net</email>
+      <organization>BlogBridge Team</organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>-4</timezone>
+    </developer>
+    <developer>
+      <id>spyromus</id>
+      <name>Aleksey Gureev</name>
+      <email>spyromus at users.sourceforge.net</email>
+      <organization>BlogBridge Team</organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>+3</timezone>
+    </developer>
+    <developer>
+      <id>padark</id>
+      <name>Sam Newman</name>
+      <email>padark at users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>jga</id>
+      <name>Jean-Guy Avelin</name>
+      <email>jga at users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>+2</timezone>
+    </developer>
+    <developer>
+      <id>mharhen</id>
+      <name>Michael Harhen</name>
+      <email>mharhen at users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>-7</timezone>
+    </developer>
+    <developer>
+      <id>aeden</id>
+      <name>Anthony Eden</name>
+      <email>aeden at users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Consultant</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>johnmunsch</id>
+      <name>John Munsch</name>
+      <email>johnmunsch at users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>krebsj</id>
+      <name>Jonathan Krebs</name>
+      <email>krebsj at users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>dhalbrook</id>
+      <name>Dolan Halbrook</name>
+      <email>dhalbrook at users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>bel70</id>
+      <name>Dmitry Belov</name>
+      <email>bel70 at users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Jon Pipitone</name>
+      <email>nrvs at users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Alexei Matiouchkine</name>
+      <email>matiouchkine at ask - petersburg dot com</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+  </contributors>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jdom</groupId>
+      <artifactId>jdom2</artifactId>
+      <version>2.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-collections</groupId>
+      <artifactId>commons-collections</artifactId>
+      <version>3.2.1</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.3</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

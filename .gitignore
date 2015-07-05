@@ -1,12 +1,33 @@
+# IntelliJ IDEA project files
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# Eclipse project files
+.settings
+.classpath
+.project
+
+# Java compile artefacts
 *.class
+build/
+out/
+target/
+.gradle/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.ear
+*.rpm
+
+# data files (too big)
+data/complete
+data/split
+
+# generic logs
+*.log
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*

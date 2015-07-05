@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<opml version="1.1">
+	<head>
+		<title>Favorite Channels</title>
+	</head>
+	<body>
+		<outline text="Artima.com Articles" title="Artima.com Articles" type="rss" version="RSS" xmlUrl="http://www.artima.com/newatartima.rss" htmlUrl="http://www.artima.com/" description="Artima.com Articles"/>
+		<outline text="BBC News - Europe" title="BBC News - Europe" type="rss" version="RSS" xmlUrl="http://feeds.bbci.co.uk/news/world/europe/rss.xml" htmlUrl="http://news.bbc.co.uk/go/click/rss/0.91/public/-/1/hi/world/default.stm"/>
+		<outline text="Google Weblog" title="Google Weblog" type="rss" version="RSS" xmlUrl="http://google.blogspace.com/rss" htmlUrl="http://google.blogspace.com/" description="Google Weblog"/>
+		<outline text="Heise News" title="Heise News" type="rss" version="RSS" xmlUrl="http://heise.de.feedsportal.com/c/35207/f/653901/index.rss" htmlUrl="http://www.heise.de/newsticker/"/>
+		<outline text="Java Today Daily News" title="Java Today Daily News" type="rss" version="RSS" xmlUrl="https://www.java.net/pub/q/java_today_rss?x-ver=1.0" htmlUrl="http://today.java.net/"/>
+		<outline text="Outer Web Thought Log" title="Outer Web Thought Log" type="rss" version="RSS" xmlUrl="http://blogs.cocoondev.org/stevenn/index.rss" htmlUrl="http://blogs.cocoondev.org/stevenn/"/>
+		<outline text="Scripting News" title="Scripting News" type="rss" version="RSS" xmlUrl="http://scripting.com/rss.xml" htmlUrl="http://www.scripting.com/"/>
+		<outline text="Slashdot" title="Slashdot" type="rss" version="RSS" xmlUrl="http://rss.slashdot.org/Slashdot/slashdotDevelopers/to" htmlUrl="http://slashdot.org/" description="Slashdot"/>
+		<outline text="Spiegel Online" title="Spiegel Online" type="rss" version="RSS" xmlUrl="http://www.spiegel.de/schlagzeilen/index.rss" htmlUrl="http://www.spiegel.de"/>
+		<outline text="tagesschau im Internet" title="tagesschau im Internet" type="rss" version="RSS" xmlUrl="http://www.tagesschau.de/newsticker.rdf" htmlUrl="http://www.tagesschau.de"/>
+		<outline text="TheServerSide.Com- Your J2EE Community Forum" title="TheServerSide.Com- Your J2EE Community Forum" type="rss" version="RSS" xmlUrl="http://www.theserverside.com/rss/forum.tss?forum_id=2" htmlUrl="http://www.theserverside.com/"/>
+		<outline text="Wired News" title="Wired News" type="rss" version="RSS" xmlUrl="http://feeds.wired.com/wired/index" htmlUrl="http://www.wired.com/" description="Wired"/>
+	</body>
+</opml>
