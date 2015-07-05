@@ -13,10 +13,15 @@
     0.91 and 1.0 RDF) for channels are supported. In addition a parser for
     reading in channel information descriptions (OPML) is provided.</description>
   <url>http://informa.sourceforge.net/</url>
+
+  <scm>
+    <url>https://github.com/nikos/informa.git</url>
+  </scm>
   <issueManagement>
-    <url>http://sourceforge.net/tracker/?atid=467483&amp;group_id=52620</url>
+    <url>https://github.com/nikos/informa/issues</url>
   </issueManagement>
   <ciManagement>
+    <url>https://travis-ci.org/nikos/informa</url>
     <notifiers>
       <notifier>
         <address>informa-developer@lists.sourceforge.net</address>
@@ -24,6 +29,13 @@
     </notifiers>
   </ciManagement>
   <inceptionYear>2002</inceptionYear>
+  <licenses>
+    <license>
+      <name>Eclipse Public License (EPL), Version 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
   <mailingLists>
     <mailingList>
       <name>Informa Announcements List</name>
@@ -38,6 +50,7 @@
       <archive>http://sourceforge.net/mailarchive/forum.php?forum=informa-developer</archive>
     </mailingList>
   </mailingLists>
+
   <developers>
     <developer>
       <id>niko_schmuck</id>
