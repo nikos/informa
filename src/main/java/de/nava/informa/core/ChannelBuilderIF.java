@@ -21,7 +21,7 @@ import java.util.Properties;
  * create the channel object model independent from which
  * implementation is used (in-memory or persistent store).
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface ChannelBuilderIF {
 

@@ -17,9 +17,9 @@ import java.util.Collection;
  * used by a channel registry (through a front-end) or as the entry
  * point for an application using this library. A ChannelGroupIF
  * object may also reflect the root element of a XML file persisted
- * from the channel object model.</p>
+ * from the channel object model.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface ChannelGroupIF extends WithIdMIF, WithTitleMIF, WithChildrenMIF {
 

@@ -14,9 +14,9 @@ package de.nava.informa.core;
  * This interface is implemented by objects representing an text input
  * field assigned to a channel in the news channel object model. This
  * could be typically used for executing a search on the web site linked
- * to.</p>
+ * to.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface TextInputIF extends WithIdMIF, WithTitleMIF, WithNameMIF, WithDescriptionMIF, WithLinkMIF {
 

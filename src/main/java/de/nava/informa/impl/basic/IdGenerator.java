@@ -19,7 +19,7 @@ import java.util.Random;
  * random integers to be used as identify uniquely news channels,
  * items.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 
 public class IdGenerator implements IdGeneratorIF {

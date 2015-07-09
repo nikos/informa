@@ -28,7 +28,7 @@ import java.util.Timer;
  * collection of channel objects and maintaining them (by specifying
  * update intervals).
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class ChannelRegistry {
 

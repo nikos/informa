@@ -13,7 +13,7 @@ package de.nava.informa.core;
 import java.io.Serializable;
 
 /**
- * This interface is implemented by objects representing an enclosure.</p>
+ * This interface is implemented by objects representing an enclosure.
  * <p>{@link WithLocationMIF#getLocation()} here denotes the source of the enclosure</p>
  *
  * @author Michael Harhen

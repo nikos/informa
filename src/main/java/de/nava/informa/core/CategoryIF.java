@@ -12,12 +12,12 @@ package de.nava.informa.core;
 
 /**
  * This interface is implemented by objects representing categories in
- * which channels could be organised in the news channel object model.</p>
- * <p>
+ * which channels could be organised in the news channel object model.
+ *
  * <p>{@link WithChildrenMIF#getChildren()} collection contains here nested
  * CategoryIF objects</p>
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface CategoryIF extends WithIdMIF, WithTitleMIF, WithChildrenMIF<CategoryIF> {
 

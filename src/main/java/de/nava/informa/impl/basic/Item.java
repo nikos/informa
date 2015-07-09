@@ -22,7 +22,7 @@ import java.util.Date;
 /**
  * In-Memory implementation of the ItemIF interface.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class Item implements ItemIF {
 

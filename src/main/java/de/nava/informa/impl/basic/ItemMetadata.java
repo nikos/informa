@@ -16,7 +16,7 @@ import de.nava.informa.core.ItemMetadataIF;
 /**
  * In-Memory implementation of the ItemMetadataIF interface.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class ItemMetadata implements ItemMetadataIF {
 

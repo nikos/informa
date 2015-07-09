@@ -29,7 +29,7 @@ public class Atom030Settings implements CacheSettingsIF {
     }
 
     /**
-     * return in order of preference: feed producer ttl (if exists and < wantedTtl)
+     * Returns in order of preference: feed producer ttl (if exists and &lt; wantedTtl)
      * wantedTtl (if exists) defaultTtl (if exists)
      */
     public long getTtl(ChannelIF channel, long ttlms) {

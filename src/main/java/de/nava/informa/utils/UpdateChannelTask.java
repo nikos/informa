@@ -27,7 +27,7 @@ import java.util.TimerTask;
  * items contained in the newly gotten channel, and if there are any
  * new items they are appended.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class UpdateChannelTask extends TimerTask {
 

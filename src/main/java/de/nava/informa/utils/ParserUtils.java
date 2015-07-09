@@ -22,7 +22,7 @@ import java.util.*;
 /**
  * Utility class providing convenience methods to (XML) parsing mechanisms.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public final class ParserUtils {
 

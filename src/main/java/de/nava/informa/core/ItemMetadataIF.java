@@ -18,7 +18,7 @@ import java.io.Serializable;
  * level for display, may be used to sort items by their relevance) of
  * the item is.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface ItemMetadataIF extends Serializable {
 

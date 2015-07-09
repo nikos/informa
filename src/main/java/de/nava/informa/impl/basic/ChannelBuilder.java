@@ -24,7 +24,7 @@ import java.util.Properties;
  * Factory for the creation of the channel object model with the in-memory
  * implementation.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class ChannelBuilder implements ChannelBuilderIF {
 

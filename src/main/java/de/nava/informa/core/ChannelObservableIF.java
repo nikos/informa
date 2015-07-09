@@ -13,12 +13,12 @@ package de.nava.informa.core;
 /**
  * Classes implementing this interface may want to inform the
  * subscribed observers that a specific channel event has
- * happend (like for example a new item was found).</p>
- * <p>
- * This interface is usually called Subject in the Observer
+ * happened (like for example a new item was found).
+ *
+ * <p>This interface is usually called Subject in the Observer
  * pattern.</p>
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface ChannelObservableIF {
 

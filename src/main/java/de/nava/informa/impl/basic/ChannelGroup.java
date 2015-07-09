@@ -21,7 +21,7 @@ import java.util.List;
 /**
  * In-Memory implementation of the ChannelGroupIF interface.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class ChannelGroup implements ChannelGroupIF {
 

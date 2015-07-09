@@ -18,7 +18,7 @@ import java.util.Collection;
 /**
  * In-Memory implementation of the CategoryIF interface.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class Category implements CategoryIF {
 

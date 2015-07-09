@@ -34,9 +34,9 @@ import java.util.Collection;
 /**
  * OPML (Outline processor markup language) parser for to read in a collection
  * of news channels (feeds) that will be made available as news channel object
- * model.</p>
- * <p>
- * Currently OPML version 1.1 is supported.
+ * model.
+ *
+ * <p>Currently OPML version 1.1 is supported.</p>
  *
  * @author Niko Schmuck
  * @author Benjamin Wiedmann

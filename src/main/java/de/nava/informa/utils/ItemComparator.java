@@ -18,7 +18,7 @@ import java.util.Comparator;
  * Custom comparator for ItemIF objects, which takes the date the news
  * item was found into account.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class ItemComparator implements Comparator<ItemIF> {
 
@@ -26,7 +26,7 @@ public class ItemComparator implements Comparator<ItemIF> {
     private boolean useFoundDate;
 
     /**
-     * Default constructor using ascending dates (oldes first) and using
+     * Default constructor using ascending dates (oldest first) and using
      * the date specified by the item (as opposed to the date the item
      * was found by retrieving).
      */

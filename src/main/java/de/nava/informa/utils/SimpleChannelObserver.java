@@ -17,11 +17,11 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 /**
- * Simple implementation of the ChannelOberserverIF interface for
+ * Simple implementation of the ChannelObserverIF interface for
  * keeping track of the added news item (and also to properly handle
  * it by the logging facility).
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class SimpleChannelObserver implements ChannelObserverIF {
 

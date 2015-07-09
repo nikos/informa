@@ -15,9 +15,9 @@ import java.util.Set;
 
 /**
  * This interface is implemented by objects representing channels in the
- * news channel object model.</p>
+ * news channel object model.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface ChannelIF extends WithIdMIF, WithTitleMIF, WithElementsAndAttributesMIF,
         WithLocationMIF, WithCreatorMIF, WithCategoriesMIF,

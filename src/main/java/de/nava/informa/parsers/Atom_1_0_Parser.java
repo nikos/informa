@@ -29,11 +29,13 @@ import java.util.*;
  * <p>
  * This parser is based on code of Atom 0.3 parser. Some good sources of
  * information regarding Atom 1.0 are:
- * <br/>
- * http://www.atomenabled.org/developers/syndication/atom-format-spec.php
- * http://rakaz.nl/item/moving_from_atom_03_to_10
- * http://www.atomenabled.org/developers/syndication/
- * http://www-128.ibm.com/developerworks/xml/library/x-atom10.html
+ * </p>
+ * <ul>
+ *   <li>http://www.atomenabled.org/developers/syndication/atom-format-spec.php</li>
+ *   <li>http://rakaz.nl/item/moving_from_atom_03_to_10</li>
+ *   <li>http://www.atomenabled.org/developers/syndication/</li>
+ *   <li>http://www-128.ibm.com/developerworks/xml/library/x-atom10.html</li>
+ * </ul>
  *
  * @author Nilesh Bansal
  * @author Benjamin Wiedmann

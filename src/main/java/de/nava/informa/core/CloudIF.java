@@ -14,7 +14,7 @@ import java.io.Serializable;
 
 /**
  * This interface is implemented by Cloud objects
- * supporting RSS 0.92 and RSS 2.0 Publish and Subscribe.</p>
+ * supporting RSS 0.92 and RSS 2.0 Publish and Subscribe.
  *
  * @author Michael Harhen
  */

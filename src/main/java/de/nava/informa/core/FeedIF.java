@@ -16,16 +16,15 @@ import java.util.Date;
  * <p>This interface is implemented by objects representing feeds
  * (containing metadata about channels, like for example OCS and OPML)
  * in the news channel object model.</p>
- * <p/>
+ *
  * <p>{@link WithLocationMIF#getLocation()} returns the destination of the feed
- * (most likely the XML source). </p>
- * <p/>
+ * (most likely the XML source).</p>
  * <p>{@link WithChannelMIF#getChannel()} retrieves the channel this feed
  * represents.</p>
  * <p>{@link WithChannelMIF#setChannel(ChannelIF)} sets the channel that
  * this feed represents</p>
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface FeedIF extends WithIdMIF, WithTitleMIF, WithLocationMIF, WithChannelMIF, WithSiteMIF {
 

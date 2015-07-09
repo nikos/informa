@@ -10,11 +10,11 @@
 
 package de.nava.informa.core;
 
-
 /**
- * Enums to describe which syntax is used by a channel description.</p>
+ * Enum to describe which syntax is used by a channel description.
  *
- * @author Niko Schmuck (niko@nava.de), Italo Borssatto
+ * @author Niko Schmuck
+ * @author Italo Borssatto
  */
 public enum ChannelFormat {
 

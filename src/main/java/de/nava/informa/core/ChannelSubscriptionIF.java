@@ -13,12 +13,12 @@ package de.nava.informa.core;
 import java.io.Serializable;
 
 /**
- * Implementing classes hold information about wether a channel should
+ * Implementing classes hold information about whether a channel should
  * be updated or not, when the channel was last time updated
  * (retrieved) and in which interval subsequent updated should be
  * executed.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface ChannelSubscriptionIF extends Serializable, WithChannelMIF {
 

@@ -17,7 +17,7 @@ import java.net.URL;
 /**
  * In-Memory implementation of the TextInputIF interface.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class TextInput implements TextInputIF {
 

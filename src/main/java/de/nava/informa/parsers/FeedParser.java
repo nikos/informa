@@ -31,13 +31,13 @@ import java.net.URL;
 /**
  * Parser class which allows reading in of RSS news channels.
  * The concrete rules how the XML elements map to our channel object model
- * are delegated to version specific private classes.</p>
- * <p>
- * Currently the FeedParser support RSS formats 0.9x, 1.0 (RDF), 2.0 and Atom 0.3.
- * <p>
- * It's possible to specify class of custom XML parser to use instead of
+ * are delegated to version specific private classes.
+ *
+ * <p>Currently the FeedParser support RSS formats 0.9x, 1.0 (RDF), 2.0 and Atom 0.3.</p>
+ *
+ * <p>It's possible to specify class of custom XML parser to use instead of
  * standard Crimson parser (JDK). Use <code>setSaxDriverClassName()</code> method
- * for that.
+ * for that.</p>
  *
  * @author Niko Schmuck
  */

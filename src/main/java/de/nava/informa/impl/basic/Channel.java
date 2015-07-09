@@ -20,7 +20,7 @@ import java.util.*;
 /**
  * In-Memory implementation of the ChannelIF interface.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class Channel implements ChannelIF {
 

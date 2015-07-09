@@ -15,7 +15,7 @@ import java.util.Collection;
 /**
  * This interface is implemented by objects storing user specific information.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface UserIF extends WithIdMIF, WithNameMIF {
 

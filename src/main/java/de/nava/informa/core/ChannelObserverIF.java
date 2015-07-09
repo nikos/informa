@@ -14,7 +14,7 @@ package de.nava.informa.core;
  * A class implementing this interface most likely wants to react on
  * the observed event.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface ChannelObserverIF {
 

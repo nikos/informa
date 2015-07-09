@@ -55,9 +55,6 @@ public final class FileUtils {
         String lineExpected = readerExpected.readLine();
         String lineActual = readerActual.readLine();
         while (lineExpected != null && lineActual != null) {
-            if (lineExpected == null || lineActual == null) {
-                return false;
-            }
             if (!lineExpected.equals(lineActual)) {
                 return false;
             }
@@ -70,7 +67,7 @@ public final class FileUtils {
     }
 
     /**
-     * Copies a file from <code>inFile</copy> to <code>outFile</code>.
+     * Copies a file from <code>inFile</code> to <code>outFile</code>.
      */
     public static void copyFile(File inFile, File outFile) {
         try {

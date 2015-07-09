@@ -26,7 +26,7 @@ import java.util.Iterator;
 
 /**
  * A channel exporter that can write channel objects out into the
- * interchange syntax defined by RSS 0.91.</p>
+ * interchange syntax defined by RSS 0.91.
  */
 public class RSS_0_91_Exporter implements ChannelExporterIF {
 

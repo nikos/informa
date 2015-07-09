@@ -11,10 +11,10 @@
 package de.nava.informa.core;
 
 /**
- * An exception thrown when no appropiate parser is available for a
+ * An exception thrown when no appropriate parser is available for a
  * specific document instance.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class UnsupportedFormatException extends ParseException {
 

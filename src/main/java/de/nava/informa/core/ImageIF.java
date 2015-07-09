@@ -12,14 +12,14 @@ package de.nava.informa.core;
 
 /**
  * This interface is implemented by objects representing an image assigned
- * to a channel in the news channel object model.</p>
- * <p>
+ * to a channel in the news channel object model.
+ *
  * <p>{@link WithLocationMIF#getLocation()} here denotes the URL where the image
  * can be retrieved from</p>
  * <p>{@link WithLinkMIF#getLink()} denotes here the URL to which the image
  * file will link when rendered in HTML</p>
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface ImageIF extends WithIdMIF, WithTitleMIF, WithLocationMIF, WithDescriptionMIF, WithLinkMIF {
 

@@ -24,7 +24,7 @@ import java.net.URL;
  * Utility class for analysing the news channel syntax and mapping to
  * known format to ease further processing.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public final class FormatDetector {
 

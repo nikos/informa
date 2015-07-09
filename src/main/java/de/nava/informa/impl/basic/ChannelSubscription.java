@@ -16,7 +16,7 @@ import de.nava.informa.core.ChannelSubscriptionIF;
 /**
  * In-Memory implementation of the ChannelSubscriptionIF interface.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class ChannelSubscription implements ChannelSubscriptionIF {
 

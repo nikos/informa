@@ -14,9 +14,9 @@ import java.io.IOException;
 
 /**
  * A channel exporter is used to write channel objects in an
- * implementation dependent way to an implicit destination.</p>
+ * implementation dependent way to an implicit destination.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface ChannelExporterIF {
 

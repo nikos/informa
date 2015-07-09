@@ -14,7 +14,7 @@ package de.nava.informa.core;
  * Interface that allows to implement different identifier generation
  * strategies.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface IdGeneratorIF {
 

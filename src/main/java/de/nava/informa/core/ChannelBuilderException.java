@@ -13,7 +13,7 @@ package de.nava.informa.core;
 /**
  * Indicates that a channel builder encountered an unexpected condition.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class ChannelBuilderException extends Exception {
 

@@ -21,7 +21,7 @@ import java.io.StringReader;
  * An EntityResolver that resolves the DTD without actually reading
  * the separate file.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class NoOpEntityResolver implements EntityResolver {
 

@@ -15,9 +15,9 @@ import java.util.Date;
 
 /**
  * This interface is implemented by objects representing items (that are
- * links to articles) in the news channel object model.</p>
+ * links to articles) in the news channel object model.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public interface ItemIF extends WithIdMIF, WithTitleMIF, WithElementsAndAttributesMIF,
         WithCreatorMIF, WithCategoriesMIF, WithDescriptionMIF,

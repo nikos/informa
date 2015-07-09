@@ -14,7 +14,7 @@ package de.nava.informa.core;
  * Exception which is thrown if a syntax problem is encountered while a document
  * instance (like a channel description) is read in.
  *
- * @author Niko Schmuck (niko@nava.de)
+ * @author Niko Schmuck
  */
 public class ParseException extends Exception {
 
