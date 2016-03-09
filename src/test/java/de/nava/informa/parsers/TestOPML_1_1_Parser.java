@@ -36,7 +36,7 @@ public class TestOPML_1_1_Parser extends InformaTestCase {
     }
 
     public void testNumberFeedsReadIn() {
-        assertEquals(12, feeds.size());
+        assertEquals(9, feeds.size());
     }
 
     public void testReadInFeeds() {
@@ -47,7 +47,7 @@ public class TestOPML_1_1_Parser extends InformaTestCase {
             if (feed.getTitle().startsWith("Google Weblog")) {
                 assertEquals("Google Weblog", feed.getTitle());
                 assertEquals("rss", feed.getContentType());
-                assertEquals("http://google.blogspace.com/rss", feed.getLocation().toString());
+                assertEquals("http://google.blogspace.com/rss.xml", feed.getLocation().toString());
                 assertEquals("http://google.blogspace.com/", feed.getSite().toString());
                 found = true;
                 break;
