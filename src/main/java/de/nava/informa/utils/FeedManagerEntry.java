@@ -279,8 +279,8 @@ public class FeedManagerEntry {
      */
     private boolean isOutOfDate() {
         boolean outOfDate = false;
-        logger.info(this + " isOutOfDate " + this.feedUri + "lupdt: " + lastUpdate
-                + ",tte=" + timeToExpire + "<?"
+        logger.info(this + " isOutOfDate " + this.feedUri + " last Update: " + lastUpdate
+                + ", tte=" + timeToExpire + "<?"
                 + (System.currentTimeMillis() - lastUpdate));
         if ((lastUpdate + timeToExpire) < System.currentTimeMillis()) {
             outOfDate = true;

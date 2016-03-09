@@ -152,7 +152,7 @@ public class FeedParser {
             channel.setLocation(baseLocation);
             return channel;
         } catch (JDOMException e) {
-            throw new ParseException("Problem parsing " + inpSource.getSystemId() + ": " + e);
+            throw new ParseException("Problem parsing " + inpSource + ": " + e);
         }
     }
 

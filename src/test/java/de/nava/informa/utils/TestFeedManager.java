@@ -72,7 +72,7 @@ public class TestFeedManager extends InformaTestCase {
         }
 
         Collection feeds2 = FM.addFeeds(opmlUri);
-        assertEquals(12, feeds2.size());
+        assertEquals(9, feeds2.size());
 
         it = feeds2.iterator();
         while (it.hasNext()) {

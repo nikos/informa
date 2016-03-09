@@ -3,7 +3,7 @@ http://heise.de.feedsportal.com/c/35207/f/653901/index.rss
 http://feeds.bbci.co.uk/news/world/africa/rss.xml
 http://feeds.bbci.co.uk/news/world/asia/rss.xml
 http://feeds.bbci.co.uk/news/world/europe/rss.xml
-https://www.cert.org/blogs/rss.xml
+http://insights.sei.cmu.edu/cert/rss.xml
 https://kimmo.suominen.com/stuff/dilbert-daily.xml
 http://feeds.feedburner.com/linuxjournalcom
 http://www.microsoft.com/feeds/MSDN/en-us/vstudio/rss.xml
