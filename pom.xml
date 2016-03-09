@@ -4,7 +4,7 @@
 
     <groupId>informa</groupId>
     <artifactId>informa</artifactId>
-    <version>0.8-SNAPSHOT</version>
+    <version>0.8.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>informa</name>
